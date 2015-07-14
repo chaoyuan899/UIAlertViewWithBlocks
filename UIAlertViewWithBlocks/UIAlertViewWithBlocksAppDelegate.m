@@ -4,7 +4,7 @@
 //
 
 #import "UIAlertViewWithBlocksAppDelegate.h"
-#import "UIAlertView+Blocks.h"
+#import "MainViewController.h"
 
 @implementation UIAlertViewWithBlocksAppDelegate
 
@@ -14,16 +14,10 @@
 {
   // Override point for customization after application launch.
   [self.window makeKeyAndVisible];
+    MainViewController *mainVC = [[MainViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    self.window.rootViewController = nav;
   
-  [UIAlertView showAlertViewWithTitle:@"Test" 
-                              message:@"Hi there" 
-                    cancelButtonTitle:@"Dismiss" 
-                    otherButtonTitles:[NSArray arrayWithObject:@"OK"] 
-                            onDismiss:^(int buttonIndex)  {
-                              
-                              NSLog(@"Button Dismissed");
-                            }
-                             onCancel:^ {}];
   return YES;
 }
 

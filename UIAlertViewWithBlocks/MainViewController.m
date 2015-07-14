@@ -7,6 +7,7 @@
 //
 
 #import "MainViewController.h"
+#import "UIAlertView+Blocks.h"
 
 @interface MainViewController ()
 
@@ -16,7 +17,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 200, 50, 30)];
+    btn.backgroundColor = [UIColor lightGrayColor];
+    [btn addTarget:self action:@selector(btnTouch:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+
+-(void)btnTouch:(UIButton*)button {
+    [UIAlertView showAlertViewWithTitle:@"Test"
+                                message:@"This is the alert message."
+                      cancelButtonTitle:@"Dismiss"
+                      otherButtonTitles:@[@"button1",@"button2"]
+                              onDismiss:^(int buttonIndex)  {
+                                  
+                                  NSLog(@"click btn at index:%i",buttonIndex);
+                              }
+                               onCancel:^ {
+                                   NSLog(@"click cancel button.");
+                               }];
 }
 
 - (void)didReceiveMemoryWarning {

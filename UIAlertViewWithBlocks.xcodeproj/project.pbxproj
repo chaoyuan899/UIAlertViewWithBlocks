@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9361D2621B55092D003F12B2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9361D2601B55092D003F12B2 /* MainViewController.m */; };
+		9361D2631B55092D003F12B2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9361D2611B55092D003F12B2 /* MainViewController.xib */; };
 		AB8FB46E13ED01E7008DA91D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8FB46D13ED01E7008DA91D /* UIKit.framework */; };
 		AB8FB47013ED01E7008DA91D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8FB46F13ED01E7008DA91D /* Foundation.framework */; };
 		AB8FB47213ED01E7008DA91D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8FB47113ED01E7008DA91D /* CoreGraphics.framework */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9361D2601B55092D003F12B2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9361D2611B55092D003F12B2 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		AB8FB46913ED01E7008DA91D /* UIAlertViewWithBlocks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIAlertViewWithBlocks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8FB46D13ED01E7008DA91D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB8FB46F13ED01E7008DA91D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +90,8 @@
 				AB8FB47D13ED01E7008DA91D /* UIAlertViewWithBlocksAppDelegate.m */,
 				AB8FB48313ED01E7008DA91D /* MainWindow.xib */,
 				AB8FB47413ED01E7008DA91D /* Supporting Files */,
+				9361D2601B55092D003F12B2 /* MainViewController.m */,
+				9361D2611B55092D003F12B2 /* MainViewController.xib */,
 			);
 			path = UIAlertViewWithBlocks;
 			sourceTree = "<group>";
@@ -154,6 +160,7 @@
 				AB8FB47813ED01E7008DA91D /* InfoPlist.strings in Resources */,
 				AB8FB48513ED01E7008DA91D /* MainWindow.xib in Resources */,
 				FB1A38F216419CF200E387DC /* Default-568h@2x.png in Resources */,
+				9361D2631B55092D003F12B2 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +174,7 @@
 				AB8FB47A13ED01E7008DA91D /* main.m in Sources */,
 				AB8FB47E13ED01E7008DA91D /* UIAlertViewWithBlocksAppDelegate.m in Sources */,
 				AB8FB49413ED01F3008DA91D /* UIAlertView+Blocks.m in Sources */,
+				9361D2621B55092D003F12B2 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
