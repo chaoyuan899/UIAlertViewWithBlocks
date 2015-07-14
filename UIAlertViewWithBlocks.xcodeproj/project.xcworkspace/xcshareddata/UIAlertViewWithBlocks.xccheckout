@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2646A432-8227-435A-80B9-4B31575C6777</string>
+	<key>IDESourceControlProjectName</key>
+	<string>UIAlertViewWithBlocks</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4C68EE374E579B07FA8935EAF862D416265CF6B6</key>
+		<string>https://github.com/chaoyuan899/UIAlertViewWithBlocks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>UIAlertViewWithBlocks.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4C68EE374E579B07FA8935EAF862D416265CF6B6</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/chaoyuan899/UIAlertViewWithBlocks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4C68EE374E579B07FA8935EAF862D416265CF6B6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4C68EE374E579B07FA8935EAF862D416265CF6B6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UIAlertViewWithBlocks</string>
+		</dict>
+	</array>
+</dict>
+</plist>
