@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 #import "UIAlertView+Blocks.h"
+#import "FirstViewController.h"
 
 @interface MainViewController ()
 
@@ -22,6 +23,11 @@
     btn.backgroundColor = [UIColor lightGrayColor];
     [btn addTarget:self action:@selector(btnTouch:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    UIButton *btn1 = [[UIButton alloc] initWithFrame:CGRectMake(100, 280, 50, 30)];
+    btn1.backgroundColor = [UIColor blueColor];
+    [btn1 addTarget:self action:@selector(pushToFirstVC) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn1];
 }
 
 -(void)btnTouch:(UIButton*)button {
@@ -36,6 +42,11 @@
                                onCancel:^ {
                                    NSLog(@"click cancel button.");
                                }];
+}
+
+-(void)pushToFirstVC {
+    FirstViewController *firstVC = [FirstViewController new];
+    [self.navigationController pushViewController:firstVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
